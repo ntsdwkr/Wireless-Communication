@@ -42,7 +42,7 @@ end
 
 SNR_dB = -5:2:25;
 SNR = 10.^(SNR_dB/10);
-semilogy(SNR_dB, simulatedBER, 'bo-','LineWidth',2);
+semilogy(SNR_dB, simulatedBER, 'r*-','LineWidth',1.5);
 title('BER of QPSK in AWGN');
 xlabel('SNR(dB)');
 ylabel('BER');
